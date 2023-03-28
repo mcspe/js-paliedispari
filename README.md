@@ -20,3 +20,12 @@ Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 
 Dichiariamo chi ha vinto.
 ## OPERATIONS
+**Palidroma**
+
+- Chiedo all'utente di inserire una parola
+- passo la stringa generata ad una funzione
+- la funzione genera un'array partendo dalla stringa
+- attraverso il metodo *reverse()*, genera un array di ordine inverso a quello di partenza
+- trasforma l'array inverso in una stringa
+- controlla che la stringa di partenza generata dall'utente e la stringa inversa siano uguali
+- restituisce vero se la parola è palindroma o falso in caso contrario
