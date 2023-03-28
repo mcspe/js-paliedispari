@@ -1,5 +1,5 @@
 /* PALINDROMA */
-const givenStr = 'abbacchio';
+const givenStr = 'abba';
 
 palindrome(givenStr);
 
@@ -11,13 +11,7 @@ function palindrome(string){
 
   const reverseStr = reverseArr.toString().replace(/,/g, '');
 
-  let palindromeTest;
-
-  if (string === reverseStr){
-    palindromeTest = true;
-  } else {
-    palindromeTest = false;
-  }
+  const palindromeTest = (string === reverseStr) ? true : false;
 
   console.log(string, reverseArr, reverseStr, palindromeTest);
 }
@@ -25,7 +19,7 @@ function palindrome(string){
 /* PARI O DISPARI */
 
 const userChoice = false; //true pari false dispari
-const userNumber = 4;
+const userNumber = 1;
 const computerNumber = randomChoice();
 const sum = sumResult(userNumber, computerNumber);
 let message;
@@ -49,12 +43,7 @@ console.log(userNumber, computerNumber, sum, message);
 
 
 function oddOrEven(num){
-  let result;
-  if(!(num % 2)){
-    result = true;
-  } else {
-    result = false;
-  }
+  const result = (!(num % 2)) ? true : false;
   return result;
 }
 
