@@ -29,3 +29,12 @@ Dichiariamo chi ha vinto.
 - trasforma l'array inverso in una stringa
 - controlla che la stringa di partenza generata dall'utente e la stringa inversa siano uguali
 - restituisce vero se la parola è palindroma o falso in caso contrario
+
+**Pari e Dispari**
+
+- Chiediamo all'utente di scegliere pari o dispari
+- Gli chiediamo di selezionare un numero da 1 a 5
+- Generiamo, tramite una funzione, un numero random da 1 a 5
+- passiamo i due numeri a una funzione che restituisce la somma
+- passiamo la somma generata a una funzione che stabilisce se il numero è pari o dispari
+- stabiliamo il vincitore in base alla scelta dell'utente e al risultato restituito dalla funzione
